@@ -11,3 +11,7 @@ for loop in range(1000):
     i,j = j,k
     # print(f'this {loop} fibonacci is {k}')
     print(f'{k}')
+
+    
+    
+    
