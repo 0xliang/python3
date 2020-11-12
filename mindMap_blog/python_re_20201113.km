@@ -1,0 +1,486 @@
+{
+    "root": {
+        "data": {
+            "id": "c71gv0wt0bk0",
+            "created": 1605202684175,
+            "text": "Regular Expression of Python\n正则表达式(python)",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c71gv87vyhs0",
+                    "created": 1605202700083,
+                    "text": "定义：使用一组特殊的字符格式取寻找匹配给定文本或字符串中的特定内容",
+                    "layout_right_offset": {
+                        "x": 193.9999998509884,
+                        "y": -351.2500034086406
+                    },
+                    "expandState": "expand"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c71h25b0l1k0",
+                    "created": 1605203242291,
+                    "text": "python正则常用方法",
+                    "layout_right_offset": {
+                        "x": 30,
+                        "y": 591
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c71h2mogq800",
+                            "created": 1605203280109,
+                            "text": "match() ：match这个方法会尝试从字符串的起始位置匹配正则表达式，如果匹配，就返回匹配成功的结果；如果不匹配，就返回None",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71h2wkuy0o0",
+                            "created": 1605203301659,
+                            "text": "search() ：search方法会扫描整个字符串并返回第一个成功的匹配",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71h2zq80i80",
+                            "created": 1605203308514,
+                            "text": "findall() ：findall方法会在字符串中找到正则表达式所匹配的所有子串，并返回一个列表，如果没有找到匹配的，则返回空列表",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71h3kkjgww0",
+                            "created": 1605203353882,
+                            "text": "sub()：sub这个方法可以找到匹配规则的字符串，并用自定义字符串替换“匹配到的字符串”",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71hs2iy6jk0",
+                            "created": 1605205273708,
+                            "text": "split() ：split 方法按照能够匹配的子串将字符串分割后返回列表",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71h3m2diw00",
+                            "created": 1605203357138,
+                            "text": "compile() ：将正则表达式转换成一组对象，方便后面调用",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c71i2gyyxu80",
+                    "created": 1605206088794,
+                    "text": "快速掌握正则方法",
+                    "layout_right_offset": {
+                        "x": 152.249999087304,
+                        "y": 1164.2499934993689
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c71i2sbbx4o0",
+                            "created": 1605206113486,
+                            "text": "无他，唯手熟尔",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71i393iseg0",
+                            "created": 1605206150019,
+                            "text": "大量练习，祭出艾宾浩斯学习曲线",
+                            "expandState": "expand"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c71h44uzggw0",
+                    "created": 1605203398050,
+                    "text": "规则",
+                    "layout_right_offset": {
+                        "x": 823,
+                        "y": -468
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c71h4k73kgg0",
+                            "created": 1605203431434,
+                            "text": "修饰符",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 180,
+                                "y": -55
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c71h5zuoskg0",
+                                    "created": 1605203543876,
+                                    "text": "\\w ：匹配字母，数字，下划线",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h63w711k0",
+                                    "created": 1605203552674,
+                                    "text": "\\W ：匹配不是字母，数字，下划线的字符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h65m8zpk0",
+                                    "created": 1605203556426,
+                                    "text": "\\s ：匹配任意空白字符，等价于[\\t\n\\r\\f]",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h68f6pd40",
+                                    "created": 1605203562530,
+                                    "text": "\\S ：匹配任意非空字符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6ahjgaw0",
+                                    "created": 1605203567026,
+                                    "text": "\\d ：匹配任意数字，等价于[0-9]",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6cj8l6w0",
+                                    "created": 1605203571482,
+                                    "text": "\\D ：匹配任意非数字字符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6ec72nc0",
+                                    "created": 1605203575410,
+                                    "text": "\\A ：匹配字符串开头",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6gxcplk0",
+                                    "created": 1605203581042,
+                                    "text": "\\Z ：匹配字符串结尾，如果存在换行，只匹配到换行前的结束字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6m45ka80",
+                                    "created": 1605203592338,
+                                    "text": "\\z ：匹配字符串结尾，如果存在换行，换行符会被匹配",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6nk0mao0",
+                                    "created": 1605203595474,
+                                    "text": "\\G ：匹配最后匹配完成的位置",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6q7ezm00",
+                                    "created": 1605203601242,
+                                    "text": "\\n ：匹配一个换行符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h6tcjn4g0",
+                                    "created": 1605203608082,
+                                    "text": "\\t ：匹配一个制表符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h7rmaxbk0",
+                                    "created": 1605203682683,
+                                    "text": "^ ：匹配一行字符串的开头",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h7u5kmiw0",
+                                    "created": 1605203688202,
+                                    "text": "$ ：匹配一行字符串的结尾",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h7wydw1k0",
+                                    "created": 1605203694298,
+                                    "text": ".  ： 匹配任意字符，除了换行符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h7yrvvq00",
+                                    "created": 1605203698258,
+                                    "text": "[...] ：用来表示一组字符，单独列出，比如[amk]匹配a, m或k",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h81oobq80",
+                                    "created": 1605203704594,
+                                    "text": "[^...] ：匹配不在“[ ]”中的字符",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h87qpqao0",
+                                    "created": 1605203717778,
+                                    "text": "* ：匹配0个或多个表达式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h88u93kg0",
+                                    "created": 1605203720169,
+                                    "text": "+ ：匹配1个或多个表达式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h8aoyaio0",
+                                    "created": 1605203724202,
+                                    "text": "? ：匹配0个或1个前面的表达式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h8ckel3k0",
+                                    "created": 1605203728281,
+                                    "text": "{n} ：精确匹配n个前面的表达式",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h8ezqtj40",
+                                    "created": 1605203733562,
+                                    "text": "{n,m} ： 匹配n到m个前面的表达式，贪婪",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h8icxiyw0",
+                                    "created": 1605203740890,
+                                    "text": "a|b ：匹配a或b",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71h8jyvt5s0",
+                                    "created": 1605203744394,
+                                    "text": "() ： 匹配括号内表达式，也用来分组",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c71h4yn6wd40",
+                            "created": 1605203462882,
+                            "text": "贪婪与非贪婪",
+                            "layout_right_offset": {
+                                "x": 142,
+                                "y": 60
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c71hyqo7i9c0",
+                                    "created": 1605205796454,
+                                    "text": "贪婪：在匹配成功的前提下，尽可能多的匹配"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71hys4o2400",
+                                    "created": 1605205799626,
+                                    "text": "非贪婪：在匹配成功的前提下，做最少匹配"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c71h54yr3mo0",
+                            "created": 1605203476642,
+                            "text": "修饰符",
+                            "layout_right_offset": {
+                                "x": 151,
+                                "y": 87
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c71htjmjwgw0",
+                                    "created": 1605205389296,
+                                    "text": "re.I ：匹配规则忽略大小写"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71htva55jk0",
+                                    "created": 1605205414667,
+                                    "text": "re.L ：根据使用的本地语言环境通过\\w, \\W, \\b, \\B, \\s, \\S实现匹配"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71hv2i6kbs0",
+                                    "created": 1605205508754,
+                                    "text": "re.M ：多行匹配"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71hv9qtg480",
+                                    "created": 1605205524514,
+                                    "text": "re.S ：让“.”匹配包括换行在内所有字符"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71hvpmj7ts0",
+                                    "created": 1605205559083,
+                                    "text": "re.U ：根据Unicode字符集解析字符，会影响 \\w, \\W, \\b, \\B, \\d, \\D, \\s, \\S "
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c71hvutc5i80",
+                                    "created": 1605205570379,
+                                    "text": "re.X ：为了增加可读性，忽略空格和 # 后面的注释"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c71hl72pago0",
+                            "created": 1605204735061,
+                            "text": "正则使用步骤",
+                            "layout_right_offset": {
+                                "x": 118,
+                                "y": 150
+                            },
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c71hldf84zs0",
+                                    "created": 1605204748879,
+                                    "text": "1、寻找规律；\n2、使用正则符号表示规律；\n3、提取信息，如果每一个字符都能匹配，则匹配成功；一旦有匹配不成功的字符则匹配失败。"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
