@@ -1,0 +1,924 @@
+{
+    "root": {
+        "data": {
+            "id": "1vpq5iluo7ktk8oalbm79tv09g",
+            "text": "requests API",
+            "created": 1605177210726
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "4im3ersgd3c8bju95rvs922hf8",
+                    "text": "request\n  - requests.request(method, url, **kwargs)\n  - return \"requests.Response\"",
+                    "created": 1605177210726
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "5oe8j9vlm7f13j9b1h103jp1g7",
+                            "text": "method -- (require)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5260aluc40qhtuu1dhhsp06v4h",
+                                    "text": "HEAD",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3766rb7cn454dfieo5sg9koh39",
+                                    "text": "GET",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1cipj9ltnfqf83haudb4t5mi9r",
+                                    "text": "POST",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2jphlefo5bse8io1g0h7n3149d",
+                                    "text": "PUT",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2ml4nlhivhuo6p890i1e90br8v",
+                                    "text": "PATCH",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "32ncfvrpiaccr3h87pn146aere",
+                                    "text": "DELETE",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2eb6c644vjq8jfhpueilo4eqq9",
+                            "text": "url -- (require)",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "697k5m84d6uhji3s15fdnpk6hd",
+                            "text": "params -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6j47185n4qf2c0456hpqokfat6",
+                                    "text": "Dictionary or bytes to be sent in the query string for the Request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3e18erekqhassbvv7nevof7lf6",
+                            "text": "data -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4k7ltnm6om0k1m98dlrmqvusc9",
+                                    "text": "Dictionary or list of tuples [(key, value)] (will be form-encoded), bytes, or file-like object to send in the body of the Request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3b2a57tgr0vuojpd0do4fop7k4",
+                            "text": "json -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5n22qasa3g9t46649rk3h8fs1g",
+                                    "text": "json data to send in the body of the Request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4f2cf8q6u9dvlpk0iu6u90g1g4",
+                            "text": "headers -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "2jcd3k6g3rn1q5kr5atcgn87sm",
+                                    "text": "Dictionary of HTTP Headers to send with the Request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "6sv8u5se2ga0d2me532uj3soqm",
+                            "text": "cookies -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7ldefl80i9rvujb47hf5fk0ub0",
+                                    "text": "Dict or CookieJar object to send with the Request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0a2uvcp7gd47m1fg1rfbsuetnl",
+                            "text": "files -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0vl80prspi7jcvfji8l47crpb9",
+                                    "text": "Dictionary of 'name': file-like-objects (or {'name': file-tuple}) for multipart encoding upload. file-tuple can be a 2-tuple ('filename', fileobj), 3-tuple ('filename', fileobj, 'content_type') or a 4-tuple ('filename', fileobj, 'content_type', custom_headers), where 'content-type' is a string defining the content type of the given file and custom_headers a dict-like object containing additional headers to add for the file.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "033c5pdsjqlm2di9nr83n6cgnf",
+                            "text": "auth -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "64i25plujishl39nbteqgunq40",
+                                    "text": "Auth tuple to enable Basic/Digest/Custom HTTP Auth.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "35u0m60vgkk6ic4s5508m9mgln",
+                            "text": "timeout (float or tuple) -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6e00l6dp2bv199e41u8c9vmp98",
+                                    "text": "How many seconds to wait for the server to send data before giving up, as a float, or a (connect timeout, read timeout) tuple.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "03bao69c49rui7bg0e04fsd06v",
+                            "text": "allow_redirects (bool) -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4pical7oe1fmn5trnp19gp92nc",
+                                    "text": "Boolean. Enable/disable GET/OPTIONS/POST/PUT/PATCH/DELETE/HEAD redirection. Defaults to True.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "34cq67b6jtg8imij8p3hr7uavo",
+                            "text": "proxies -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "3lmmev81f3l5rdi29sk85kfck4",
+                                    "text": "Dictionary mapping protocol to the URL of the proxy.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "23m9qcot6njq4mnagb06hrja9o",
+                            "text": "verify -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "17i165fi4vr93usckdfmbmalb2",
+                                    "text": "Either a boolean, in which case it controls whether we verify the server's TLS certificate, or a string, in which case it must be a path to a CA bundle to use. Defaults to True.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0dfd0vg5l36edhin7ph9fdcma1",
+                            "text": "stream -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "38ommh31pjofvpht1v8o7e4l3t",
+                                    "text": "if False, the response content will be immediately downloaded.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "36g5bkevs1sju6ffpncohcmrhp",
+                            "text": "cert -- (optional)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "35v50l000thl866ott6hujkd96",
+                                    "text": "if String, path to ssl client cert file (.pem). If Tuple, ('cert', 'key')",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "54ncsk2kd9c5ghsg0phqnlb7e8",
+                    "text": "method\n-- requests.method()",
+                    "created": 1605177210726
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "1t5lkifml6tuef4epdo5r7a6j7",
+                            "text": "HEAD",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "2ir2n1okbnjvd5hnr8563412vg",
+                            "text": "GET",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "46t56ka6o0g0nnkkcjni62t5o4",
+                            "text": "POST",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "5fi0ia7r4e7vqgc2j0jtobeckm",
+                            "text": "PUT",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "6970dpbc74ncik8j5s9ndr583v",
+                            "text": "PATCH",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "1dpct9rbcapmv6lfogfjsanasv",
+                            "text": "DELETE",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "01e83o9q6li0qite4jjpuiqeki",
+                    "text": "Response",
+                    "created": 1605177210726
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "10qfulvuf2c752mott7sau9a40",
+                            "text": "apparent_encoding",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4btfobcug1prabu2scd54o6gq1",
+                                    "text": "The apparent encoding, provided by the chardet library.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3jo9e941smb8of34tmc2l7v97k",
+                            "text": "close()",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4pqofrbpvln0786ntf9907mbnd",
+                                    "text": "Releases the connection back to the pool. Once this method has been called the underlying raw object must not be accessed again.\nNote: Should not normally need to be called explicitly.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3vomh2ugos2u5ub7n92njolqg4",
+                            "text": "content",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0n8rc3u8ecb1hqei9jgok6p5p4",
+                                    "text": "Content of the response, in bytes.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3m10n3u2c8i814tpttl1qnuhcb",
+                            "text": "cookies = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "67bhvv3quv96gmn4darepa4g8h",
+                                    "text": "A CookieJar of Cookies the server sent back.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "41qkbeqg1pqaiuh0kbtbrqut5b",
+                            "text": "elapsed = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6sb3likrjltedabi4ummaa8tbq",
+                                    "text": "The amount of time elapsed between sending the request and the arrival of the response (as a timedelta). This property specifically measures the time taken between sending the first byte of the request and finishing parsing the headers. It is therefore unaffected by consuming the response content or the value of the stream keyword argument.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "40akc30s0q7a2k5pta75ar9q0n",
+                            "text": "encoding = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "3v1pc2bdn1gpfjt2kv0c3cr9fd",
+                                    "text": "Encoding to decode with when accessing r.text.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4569144ieh5lu43459s8sktha0",
+                            "text": "headers = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "2e6a04uci30d3ba24bap3fiman",
+                                    "text": "Case-insensitive Dictionary of Response Headers. For example, headers['content-encoding'] will return the value of a 'Content-Encoding' response header.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2n1968073vev79ltnste95r2om",
+                            "text": "history = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6neeikee6a4sc9lr79loa4ad48",
+                                    "text": "A list of Response objects from the history of the Request. Any redirect responses will end up here. The list is sorted from the oldest to the most recent request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7gm3q16o0hiqb5nlldjsauan47",
+                            "text": "is_permanent_redirect",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "12d28n6vkhlr5h90roporde80a",
+                                    "text": "True if this Response one of the permanent versions of redirect.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7v88bj2bp2an265hdlberhs38a",
+                            "text": "is_redirect",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "148jcot8g6lbe5of1n4vqrq0iq",
+                                    "text": "True if this Response is a well-formed HTTP redirect that could have been processed automatically (by Session.resolve_redirects).",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3711g3hhj8a0qu8689psqa0rnu",
+                            "text": "iter_content(chunk_size=1, decode_unicode=False)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "2dcvn8d972vq540uksmeftmroi",
+                                    "text": "Iterates over the response data. When stream=True is set on the request, this avoids reading the content at once into memory for large responses. The chunk size is the number of bytes it should read into memory. This is not necessarily the length of each item returned as decoding can take place.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5u4r5sa25q8h1ug847pq68v4b6",
+                                    "text": "chunk_size must be of type int or None. A value of None will function differently depending on the value of stream. stream=True will read data as it arrives in whatever size the chunks are received. If stream=False, data is returned as a single chunk.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7rmn2q6ptiujpa3bm13g1u6jek",
+                                    "text": "If decode_unicode is True, content will be decoded using the best available encoding based on the response.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "6f4dbopv4oa3vcl92aba0efos0",
+                            "text": "iter_lines(chunk_size=512, decode_unicode=None, delimiter=None)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "04ogfkmcvf3orvbid5ijs66om2",
+                                    "text": "Iterates over the response data, one line at a time. When stream=True is set on the request, this avoids reading the content at once into memory for large responses.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0o72au6iqngolrhgok84csop8n",
+                            "text": "json(**kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1hputq6dl742scbueumfbee9pl",
+                                    "text": "Returns the json-encoded content of a response, if any.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2de40hfgu5e453g5mc1gheuovc",
+                            "text": "links",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5th7vvpvll1iij1dqlfft1qun4",
+                                    "text": "Returns the parsed header links of the response, if any.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "6jkh6dlljkefba09aah2kg8qk9",
+                            "text": "next",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6qmjeic04dcg2me9f3ad3hhqp4",
+                                    "text": "Returns a PreparedRequest for the next request in a redirect chain, if there is one.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "26681c26s52fppqcnh7e14enup",
+                            "text": "ok",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1chc2ta5ccuutivg7cgqg9fkvu",
+                                    "text": "Returns True if status_code is less than 400.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7jikpjnj07lqqaqiu4mf20rvr2",
+                                    "text": "This attribute checks if the status code of the response is between 400 and 600 to see if there was a client error or a server error. If the status code, is between 200 and 400, this will return True. This is not a check to see if the response code is 200 OK.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2cveibvu794jk64min6hnmgs6l",
+                            "text": "raise_for_status()",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "2vpc9m8hvf3b0qbcvr7p4mq7td",
+                                    "text": "Raises stored HTTPError, if one occurred.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "26m93n7i9c89smsr3b7cgsv7gc",
+                            "text": "raw = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5ufume53kf6cb2n62f3opf0tqi",
+                                    "text": "File-like object representation of response (for advanced usage). Use of raw requires that stream=True be set on the request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0ruqeah31i52vd9ck4smk082ks",
+                            "text": "reason = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "3s2gbjhhleavf3o63jodh5jmke",
+                                    "text": "Textual reason of responded HTTP Status, e.g. \"Not Found\" or \"OK\".",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "20a0n8pau950sqk757cbsc5mu6",
+                            "text": "request = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5oe7hhjep5aheqh6jpr7v7g3ss",
+                                    "text": "The PreparedRequest object to which this is a response.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0t118pas6pto31k2ija65e2g9v",
+                            "text": "status_code = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "64l2be4mog9ll92t109fph1ig8",
+                                    "text": "Integer Code of responded HTTP Status, e.g. 404 or 200.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4gdne6l30q1equ3mhijjdg2mul",
+                            "text": "text",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "57cplradsehkev1npmc5ocioag",
+                                    "text": "Content of the response, in unicode.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "37udndn4qv5ttt1j3ru7n4mn3h",
+                                    "text": "If Response.encoding is None, encoding will be guessed using chardet.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4r6qvaq18jbu9h0gkuc1jjai2u",
+                                    "text": "The encoding of the response content is determined based solely on HTTP headers, following RFC 2616 to the letter. If you can take advantage of non-HTTP knowledge to make a better guess at the encoding, you should set r.encoding appropriately before accessing this property.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "793561svjdb9k4uagsv733k0k1",
+                            "text": "url = None",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4fij7la8279bjh3gksog8ueqak",
+                                    "text": "Final URL location of Response.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "2e54emi9r4eottbi0g73mnh7hg",
+                    "text": "Error",
+                    "created": 1605177210726
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "22ngf6dk5m5d6n3lrr83osol60",
+                            "text": "exception requests.RequestException(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "363a2jr7dkt8j49vamcvgham86",
+                                    "text": "There was an ambiguous exception that occurred while handling your request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "69738snnuiiov81s7mdjdrfde6",
+                            "text": "exception requests.ConnectionError(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "6fc8gr85d1dkggbi6qn7a5eg5n",
+                            "text": "exception requests.HTTPError(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "4vfd3fo0t69m9519q2191nbrrn",
+                            "text": "exception requests.URLRequired(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "45gq8lh9as6mlnmqnlalhdhdit",
+                                    "text": "A valid URL is required to make a request.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "1a791iakcpukdom3i47rmna9iv",
+                            "text": "exception requests.TooManyRedirects(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "052e2te7ctoaigfiraj8kkmb83",
+                            "text": "exception requests.ConnectTimeout(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0hj6u06vbr73rsjc7h0cjncnpo",
+                                    "text": "The request timed out while trying to connect to the remote server.\nRequests that produced this error are safe to retry.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "60pjg5cc5mhmf1fojnrh4gsjrb",
+                            "text": "exception requests.ReadTimeout(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1ftu2fsn9jv6mvbdrh142o2usd",
+                                    "text": "The server did not send any data in the allotted amount of time.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4q375idu7hvq3b8q0jebk7ckrc",
+                            "text": "exception requests.Timeout(*args, **kwargs)",
+                            "created": 1605177210726
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0hb2i52qh0l57cs0p7rnf880b5",
+                                    "text": "The request timed out.\nCatching this error will catch both ConnectTimeout and ReadTimeout errors.",
+                                    "created": 1605177210726
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
