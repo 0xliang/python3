@@ -1,0 +1,65 @@
+{
+    "root": {
+        "data": {
+            "id": "c72b772fyk00",
+            "created": 1605288271244,
+            "text": "lxml model"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c72b7grnbns0",
+                    "created": 1605288292359,
+                    "text": "etree\n- 使用etree模块，我们可以\n创建XML/HTML元素及其子\n元素，这在我们试图写入或操\n作HTML或XML文件时非常有用"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c72bdmsrazk0",
+                            "created": 1605288775672,
+                            "text": "HTML()",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c72bdv9bnnc0",
+                                    "created": 1605288794088,
+                                    "text": "xpath"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c72be712g400",
+                            "created": 1605288819710,
+                            "text": "parse()"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c72bphi332o0",
+                            "created": 1605289704512,
+                            "text": "tostring()"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c72bd9yljdc0",
+                    "created": 1605288747727,
+                    "text": "html\n- The lxml.html tool set for HTML handling."
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-red",
+    "version": "1.4.43"
+}
