@@ -1,20 +1,22 @@
 ### Docker install Selenium Grid for Python3 spider use
 
 ```
-ENV: Win10, CentOS7
-Author: 0xLiang
-Date: 2020-12-19
 Describe: 
    Coding(python) in CentOS7, Docker build Selenium Grid ENV，use VNC(in Win10) to monitor Selenium's process 
    在CentOS7编写Python爬虫，CentOS7下使用Docker创建Selenium Grid，在win10下使用VNC连接Selenium Grid，从而查看爬虫执行过程
+Author: 0xLiang
+Date: 2020-12-19
+
 ```
 
 ##### *ENV*
-> Python3.8
-> Win10 ：192.168.123.1
-> CentOS7: 192.168.123.2
-> Docker Version: version 18.06.3-ce
-> Docekr image: selenium/standalone-chrome:4.0.0-beta-1-prerelease-20201208
+```
+Python3.8
+Win10: 192.168.123.1
+CentOS7: 192.168.123.2
+Docker Version: version 18.06.3-ce
+Docekr image: selenium/standalone-chrome:4.0.0-beta-1-prerelease-20201208
+```
 
 #### 1. Docker install Selenium Grid in CentOS7
 
@@ -35,7 +37,7 @@ you will see the UI screen if it is success
 
 #### 3. coding
 
-example
+example(Python3)
 ```
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
