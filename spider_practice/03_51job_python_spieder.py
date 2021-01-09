@@ -1,7 +1,7 @@
 #########################################
 # Describe: get job's info from 51job 
 # ENV: python3
-# Aurhor: 0xLiang
+# Author: 0xLiang
 # Date: 2020-12-20
 # 
 #########################################
