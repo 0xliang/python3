@@ -11,6 +11,7 @@ from lxml import etree
 import time
 import random
 import pandas as pd
+import re
 
 def get_proxy():
     return requests.get("http://192.168.1.2:5010/get/").json()
